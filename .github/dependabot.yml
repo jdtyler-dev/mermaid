@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "pnpm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    # Specify labels for npm pull requests
+    labels:
+      - "pnpm"
+      - "dependencies"
